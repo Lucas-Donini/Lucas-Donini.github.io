@@ -1,0 +1,12 @@
+.sobre-container {
+  display: flex;
+  width: 100%;
+  background-color: #111;
+   justify-content: center;
+  padding: 4rem; 
+}
+.sobre {
+  color: white;
+  font-size: 3rem;
+  overflow-wrap: break-word;
+}
