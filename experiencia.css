@@ -1,0 +1,91 @@
+.experiencia {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.experiencia-container h1 {
+  font-size: 9rem;
+  color: #e0e0e0;
+  justify-content: end;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto1 {
+  font-size: 1.5rem;
+  color: #525252;
+}
+strong {
+  color: #111;
+}
+.bikcraft {
+  background-color: #f0f0f0;
+  margin-top: 3rem;
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.experiencia-textos {
+  margin-top: 6rem;
+}
+.bikcraft p {
+  font-size: 1.2rem;
+}
+.bikcraft h2 {
+  font-size: 1.7rem;
+}
+.projh2 {
+  text-align: center;
+}
+.proj2 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.proj {
+  background-color: #fff;
+  padding: 0.8rem;
+  border-radius: 8px;
+}
+.braf h2::before {
+  content: "";
+  position: absolute;
+  background: linear-gradient(#b6f829, #67dd0a);
+  width: 0.4rem;
+  height: 1.8rem;
+  left: -3px;
+}
+@media (max-width: 800px) {
+  .experiencia {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .experiencia-container h1 {
+    font-size: 6rem;
+    color: #e0e0e0;
+    justify-content: end;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: -3rem;
+  }
+}
+@media (max-width: 820px) {
+  .texto1 {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+  }
+  .textos-introducao {
+    text-align: center;
+    margin-top: 10rem;
+    margin-left: 2rem;
+  }
+  .experiencia {
+    display: flex;
+    flex-direction: column;
+  }
+}

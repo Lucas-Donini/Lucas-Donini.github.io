@@ -1,0 +1,129 @@
+.footer-container {
+  background-color: #000;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+.footer p {
+  font-size: 1.5rem;
+  color: #cccccc;
+  text-align: center;
+  margin-top: 7rem;
+ 
+}
+.ultimo h4 {
+  color: #fff;
+  font-size: 2.2rem;
+  text-align: center;
+}
+.textultimo {
+  color: #8f8f8f;
+  margin-left: 20rem;
+padding: 1rem;
+}
+.ultimo a {
+  text-decoration: none;
+  color: #fff;
+  background-color: blueviolet;
+  border-radius: 0.5rem;
+  padding: 10px;
+}
+.ultimo a:hover{
+   border: 2px solid #e21;
+}
+@media(max-width:900px){
+  .footer p {
+  font-size: 1.3rem;
+  color: #cccccc;
+  text-align: center;
+  margin-top: 4rem;
+ 
+}
+.ultimo h4 {
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.textultimo {
+  color: #8f8f8f;
+  margin-left: 20rem;
+padding: 1rem;
+}
+.ultimo a {
+  text-decoration: none;
+  color: #fff;
+  background-color: blueviolet;
+  border-radius: 0.5rem;
+  padding: 8px;
+}
+.textultimo {
+  color: #8f8f8f;
+  margin-left: 14rem;
+padding: 1rem;
+}
+@media(max-width:630px){
+  .footer p {
+  font-size: 1rem;
+  color: #cccccc;
+  text-align: center;
+  margin-top: 4rem;
+ 
+}
+.ultimo h4 {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.textultimo {
+  color: #8f8f8f;
+  margin-left: 20rem;
+padding: 1rem;
+}
+.ultimo a {
+  text-decoration: none;
+  color: #fff;
+  background-color: blueviolet;
+  border-radius: 0.5rem;
+  padding: 8px;
+}
+.textultimo {
+  color: #8f8f8f;
+  margin-left: 10rem;
+padding: 1rem;
+}
+}
+@media(max-width:500px){
+  .footer p {
+  font-size: 0.7rem;
+  color: #cccccc;
+  text-align: center;
+  margin-top: 4rem;
+ 
+}
+.ultimo h4 {
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
+.textultimo {
+  color: #8f8f8f;
+  margin-left: 20rem;
+padding: 1rem;
+font-size: 0.5rem;
+}
+.ultimo a {
+  text-decoration: none;
+  color: #fff;
+  background-color: blueviolet;
+  border-radius: 0.5rem;
+  padding: 8px;
+}
+.textultimo {
+  color: #8f8f8f;
+  margin-left: 6rem;
+padding: 1rem;
+}
+}
+}

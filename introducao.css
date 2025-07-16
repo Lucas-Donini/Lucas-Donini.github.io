@@ -1,0 +1,76 @@
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.introducao img{
+  width: 30rem;
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+.textos-introducao{
+  text-align: center;
+margin-top: 10rem;
+margin-right: 10rem;
+}
+.textos-introducao h2{
+  font-size: 5.3rem;
+}
+.textos-introducao p{
+  font-size: 2rem;
+}
+@Media (max-width:1330px){
+  .textos-introducao h2{
+  font-size: 4rem;
+}
+.textos-introducao p{
+  font-size: 1.5rem;
+}
+.introducao img{
+  width: 27rem;
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+}
+@Media (max-width:1000px){
+    .textos-introducao h2{
+  font-size: 3rem;
+}
+.textos-introducao p{
+  font-size: 1rem;
+}
+.introducao img{
+  width: 20rem;
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+}
+@Media (max-width:800px){
+    .textos-introducao h2{
+  font-size: 3rem;
+}
+.textos-introducao p{
+  font-size: 1rem;
+}
+.introducao img{
+ display: none;
+}
+.introducao {
+  display: block;
+}
+.textos-introducao{
+  margin-left: 6rem;
+  margin-top: -1rem;
+}
+}
+@Media (max-width:500px){
+     .textos-introducao h2{
+  font-size: 2.6rem;
+}
+.textos-introducao p{
+  font-size: 1rem;
+}
+.textos-introducao{
+  text-align: center;
+margin-right: 10rem;
+}
+}
